@@ -1,3 +1,5 @@
+'use client';
+
 import InterviewContainer from '@/components/Interview/InterviewContainer';
 
 export default function Home() {
