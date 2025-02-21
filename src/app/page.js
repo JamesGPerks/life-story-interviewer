@@ -1,6 +1,6 @@
 'use client';
 
-import InterviewContainer from '@/components/Interview/InterviewContainer';
+import InterviewContainer from '@/components/Interview/InterviewContainer.js';
 
 export default function Home() {
   return (
