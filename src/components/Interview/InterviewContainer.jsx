@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Button } from '../ui/Button';
 import { questionSets } from '@/data/questionSets';
 
 export default function InterviewContainer() {
@@ -54,12 +55,9 @@ export default function InterviewContainer() {
           placeholder="Type your answer here..."
         />
         
-        <button
-          onClick={handleSubmit}
-          className="bg-blue-500 text-white px-4 py-2 rounded-md"
-        >
+        <Button onClick={handleSubmit}>
           {currentQuestionIndex < questions.length - 1 ? 'Next Question' : 'Finish'}
-        </button>
+        </Button>
       </div>
 
       <div className="mt-8">
